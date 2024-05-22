@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEEP travels</title>
+    <link rel="stylesheet" href="w.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Book Your Trip</h1>
+            <nav>
+                <ul>
+                    <li><a href="#search">Search</a></li>
+                    <li><a href="index.html">Results</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h2>Discover Your Next Trip</h2>
+                <p>Find your perfect destination based on your interest.</p>
+            </div>
+        </section>
+
+        <section id="search">
+            <div class="container">
+                <h2>Find Your Perfect Trip</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="temperature">Select Temperature Range:</label>
+                        <input type="range" id="temperature" name="temperature" min="-20" max="40">
+                    </div>
+                    <div class="form-group">
+                        <label for="terrain">Select Terrain:</label>
+                        <select id="terrain" name="terrain">
+                            <option value="ice">Ice</option>
+                            <option value="sand">Sand</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="activities">Select Activities:</label>
+                        <input type="checkbox" id="hiking" name="activities" value="hiking">
+                        <label for="hiking">Hiking</label>
+                        <input type="checkbox" id="skiing" name="activities" value="skiing">
+                        <label for="skiing">Skiing</label>
+                    </div>
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="results">
+            <div class="container">
+                <h2>Popular Destinations</h2>
+                <div class="destination">
+                    <img src="Screenshot 2024-05-21 203804.png" alt="Destination">
+                    <h3>Mountain Retreat, Switzerland</h3>
+                    <p>Escape to the serene Swiss Alps and enjoy skiing, snowboarding, and cozy mountain cabins.</p>
+                    <p>Temperature: -5°C</p>
+                    <p>Terrain: Ice</p>
+                    <p>Activities: Skiing, Snowboarding, Hiking</p>
+                    <button>Book Now</button>
+                </div>
+                <div class="destination">
+                    <img src="OIP (1).jpeg" alt="Destination">
+                    <h3>Beach Paradise, Maldives</h3>
+                    <p>Relax on pristine white-sand beaches and explore vibrant coral reefs in the crystal-clear waters.</p>
+                    <p>Temperature: 30°C</p>
+                    <p>Terrain: Sand</p>
+                    <p>Activities: Snorkeling, Scuba Diving, Beach Volleyball</p>
+                    <button>Book Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Book Your Trip is your ultimate travel companion, offering personalized trip recommendations based on your preferences. Our mission is to make travel planning effortless and enjoyable, so you can focus on creating unforgettable memories.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, feel free to reach out to us:</p>
+            <p>Email: info.xxxx@gmail.com</p>
+            <p>Phone: 1-8000-xxxx </p>
+        </div>
+    </section>
+
+    <footer>
+    </footer>
+</body>
+</html>
